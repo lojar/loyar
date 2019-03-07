@@ -1,7 +1,6 @@
 .box{
 	width: 90%;
 	margin: 0 auto;
-	position: relative;
 }
 .box>div{
 	display: none;
@@ -14,14 +13,7 @@
 img{
 	width: 100%;
 	/*height: 300px;*/
-	margin-top: 10%;
-}
-button{
-	padding: 0;
-	font-size: 1vw;
-	border: 1px solid skyblue;
-	cursor: pointer;
-	/*position: absolute;*/
+	margin-top: 50%;
 }
 .one{
 	width: 70%;
@@ -32,14 +24,14 @@ button{
 	float: left;
 }
 .one>ul{
-	width: 14.2857%;
+	width: 10%;
 	padding: 0;
 	float: right;
 }
 .one>ul li{
 	list-style: none;
-	font-size: 3vw;
-	line-height: 3vw;
+	font-size: 2vw;
+	line-height: 5vw;
 	text-align: center;
 }
 .ul1{
@@ -63,7 +55,9 @@ button{
 .ul7{
 	color: #5151A2;
 }
-
+.ck_p{
+	margin-top: 5%;
+}
 .ck_vi1{
 	width: 100%;
 	height: 100%;
@@ -94,6 +88,8 @@ button{
 	top: -7.5vw;
 	right: 3vw;
 	cursor: pointer;
+		color: #fff;
+	opacity: .5;
 }
 .ck_vi2{
 	width: 100%;
@@ -125,6 +121,8 @@ button{
 	top: -7.5vw;
 	right: 3vw;
 	cursor: pointer;
+		color: #fff;
+	opacity: .5;
 }
 .ck_vi3{
 	width: 100%;
@@ -156,6 +154,8 @@ button{
 	top: -7.5vw;
 	right: 3vw;
 	cursor: pointer;
+	color: #fff;
+	opacity: .5;
 }
 .ck_xia{
 	width: 10%;
@@ -166,21 +166,55 @@ button{
 	display: inline-block;
 	width: 3vw;
 	height: 3vw;
-	background-color: yellow;
+	/*background-color: yellow;*/
 	border-radius: 50%;
 	text-align: center;
 	font-size: 1vw;
 	line-height: 3vw;
-	margin-top: 5%;
-	margin-left: 4%;
+	/*margin-top: 5%;*/
+	color: blue;
+	margin:0 3.11%;
+	float: left;
 	cursor: pointer;
-}
-.box>span:nth-child(2){
-	top: 35vw;
-}
-.box>span:nth-child(1){
-	top: 30vw;
 }
 .box .active{
 	background-color: skyblue;
+}
+.dj1,.dj2,.dj3{
+	text-align: center;
+	font-size: 5vw;
+	line-height: 0;
+	cursor: pointer;
+	color: red;
+	opacity: .5
+}
+.dj1:hover{
+	font-size: 6vw;
+	opacity: 1;
+}
+.dj2:hover{
+	font-size: 7vw;
+	opacity: 1;
+}
+.dj3:hover{
+	font-size: 8vw;
+	opacity: 1;
+}
+.ck_p .miss1{
+	font-size: 3vw;
+	color: red;
+	position: absolute;
+	top: 4vw;
+}
+.ck_p .miss2{
+	font-size: 3vw;
+	color: red;
+	position: absolute;
+	top: 4vw;
+}
+.ck_p .miss3{
+	font-size: 3vw;
+	color: red;
+	position: absolute;
+	top: 4vw;
 }
